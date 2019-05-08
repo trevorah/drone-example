@@ -1,5 +1,7 @@
 pipeline:
   test:
     image: alpine
-    commands: echo "hello world"
+    commands:
+       - exit 1
+       - echo "hello world"
 
